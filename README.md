@@ -2,7 +2,7 @@ We have done login and school registration api and their schema so far.
 using technologies/tools:
 1) Node js
 2) Express js
-3) Mlab (Data will store on cloud, benefits of Mlab we can fetch data in anywhere from mlab and don't have to start database Locally any time)
+3) Mongolab (Data will store on cloud, benefits of Mongolab we can fetch data anywhere from database and don't have to start database any time)
 4) Mongoose
 
 # node-js-getting-started
