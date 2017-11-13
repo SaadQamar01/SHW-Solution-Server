@@ -1,7 +1,17 @@
-
 ## Our Work so far
+Signup Login Multiplication Assignment Completed
 
-We have done login and school registration api and their schema so far.
+Signup API: http://localhost:8000/api/signup before hit this api must pass JSON object via postman
+{"name":"name",   "email": "email@gmail.com","password": "password"}
+
+Login API: http://localhost:8000/api/login before hit this api must pass JSON object via postman
+{"email": "email@gmail.com","password": "password"}
+
+Multiplication API: http://localhost:8000/api/multiplication before hit this api must pass JSON object
+{"num1":4,"num2":4}
+
+result show on console
+
 using technologies/tools:
 1) Node-js
 2) Express-js
