@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var authenticationSchema = new Schema({
     email: { type: String, unique: true },
-    name: { type: String },
+    type: { type: String },
     password: { type: String }
 }, { collection: 'authentication' });
 var Authentication =module.exports= mongoose.model('Authentication', authenticationSchema);
