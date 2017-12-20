@@ -10,6 +10,7 @@ var employeeRegisterSchema = mongoose.Schema({
     type: { type: String,unique: false },
     employeeType: { type: String,unique: false },
     employeeID: { type: String,unique: false },
+    schoolID: { type: String,unique: false },
     salary: { type: String,unique: false },
 }, { collection: 'employee-register' });
 var EmployeeRegister =module.exports= mongoose.model('EmployeeRegister', employeeRegisterSchema);

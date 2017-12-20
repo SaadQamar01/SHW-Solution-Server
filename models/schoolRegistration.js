@@ -7,8 +7,10 @@ var schoolRegisterSchema = mongoose.Schema({
     schoolName: { type: String,unique: false },
     registrationDate: { type: String,unique: false },
     amount: { type: String,unique: false },
+    location: { type: String,unique: false },
     type: { type: String,unique: false },
     schoolID: { type: String,unique: false },
-    ownerName: { type: String,unique: false }
+    ownerName: { type: String,unique: false },
+    ownerCNIC: { type: String,unique: false }
 }, { collection: 'school-register' });
 var SchoolRegister =module.exports= mongoose.model('SchoolRegister', schoolRegisterSchema);

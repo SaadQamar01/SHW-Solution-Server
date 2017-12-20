@@ -9,6 +9,7 @@ var studentRegisterSchema = mongoose.Schema({
     registrationDate: { type: String,unique: false },
     type: { type: String,unique: false },
     class: { type: String,unique: false },
+    schoolID: { type: String,unique: false },
     QRno: { type: String,unique: false },
     studentFees: { type: String,unique: false },
 }, { collection: 'student-register' });
